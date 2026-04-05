@@ -1,0 +1,1 @@
+sprite_prefetch(s_Static);
