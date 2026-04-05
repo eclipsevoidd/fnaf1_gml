@@ -39,7 +39,14 @@ switch (current_state){
 		draw_sprite_stretched_ext(s_MenuFreddy, 0, 0, 0, display_get_gui_width(), display_get_gui_height(), c_white, 1);
 		draw_sprite_stretched_ext(s_Static, staticFrame, 0, 0, display_get_gui_width(), display_get_gui_height(), c_white, 0.2);
 		
-		
+		draw_set_halign(fa_left);
+	    draw_set_font(fnt_Consolas_48);
+	    draw_text(125, 100, "Lobby Settings");
+    
+	    // --- NEW: Draw the dynamic match length ---
+	    draw_set_font(fnt_Consolas_24);
+	    var current_length = string(global.match_settings.matchLength) + " Mins";
+	    draw_text(130, display_get_gui_height() - 750, "Match Length: " + current_length);
 		break;
 	case GAME_STATE.CONNECTING:
 		draw_sprite_stretched_ext(s_MenuFreddy, 0, 0, 0, display_get_gui_width(), display_get_gui_height(), c_white, 1);
