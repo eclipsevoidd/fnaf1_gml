@@ -37,6 +37,7 @@
     {"id":{"name":"muffel","path":"scripts/muffel/muffel.yy",},},
     {"id":{"name":"scr_dt","path":"scripts/scr_dt/scr_dt.yy",},},
     {"id":{"name":"scr_GameStates","path":"scripts/scr_GameStates/scr_GameStates.yy",},},
+    {"id":{"name":"scr_MatchRuleset","path":"scripts/scr_MatchRuleset/scr_MatchRuleset.yy",},},
     {"id":{"name":"snd_blip","path":"sounds/snd_blip/snd_blip.yy",},},
     {"id":{"name":"s_GameManagerSprite","path":"sprites/s_GameManagerSprite/s_GameManagerSprite.yy",},},
     {"id":{"name":"s_MenuFreddy","path":"sprites/s_MenuFreddy/s_MenuFreddy.yy",},},
