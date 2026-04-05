@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_Consolas_48",
+  "%Name":"fnt_Consolas_32",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":39,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":50,
   "maintainGms1Font":false,
-  "name":"fnt_Consolas_48",
+  "name":"fnt_Consolas_32",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
