@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Office","folderPath":"folders/Objects/Office.yy","name":"Office","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,6 +36,7 @@
     {"id":{"name":"fnt_Consolas_54","path":"fonts/fnt_Consolas_54/fnt_Consolas_54.yy",},},
     {"id":{"name":"fnt_Consolas_64","path":"fonts/fnt_Consolas_64/fnt_Consolas_64.yy",},},
     {"id":{"name":"o_GameManager","path":"objects/o_GameManager/o_GameManager.yy",},},
+    {"id":{"name":"o_NightManager","path":"objects/o_NightManager/o_NightManager.yy",},},
     {"id":{"name":"o_UIButton","path":"objects/o_UIButton/o_UIButton.yy",},},
     {"id":{"name":"obj_muffel","path":"objects/obj_muffel/obj_muffel.yy",},},
     {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
@@ -47,6 +49,7 @@
     {"id":{"name":"snd_blip","path":"sounds/snd_blip/snd_blip.yy",},},
     {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},},
     {"id":{"name":"s_Arrow","path":"sprites/s_Arrow/s_Arrow.yy",},},
+    {"id":{"name":"s_GameManagerSprite_1","path":"sprites/s_GameManagerSprite_1/s_GameManagerSprite_1.yy",},},
     {"id":{"name":"s_GameManagerSprite","path":"sprites/s_GameManagerSprite/s_GameManagerSprite.yy",},},
     {"id":{"name":"s_MenuFreddy","path":"sprites/s_MenuFreddy/s_MenuFreddy.yy",},},
     {"id":{"name":"s_Static","path":"sprites/s_Static/s_Static.yy",},},

@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Office","order":4,"path":"folders/Objects/Office.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
     {"name":"Sounds","order":4,"path":"folders/Sounds.yy",},
@@ -22,6 +23,7 @@
     {"name":"mus_mainRemastered","order":1,"path":"sounds/mus_mainRemastered/mus_mainRemastered.yy",},
     {"name":"snd_click","order":2,"path":"sounds/snd_click/snd_click.yy",},
     {"name":"s_Arrow","order":4,"path":"sprites/s_Arrow/s_Arrow.yy",},
+    {"name":"s_GameManagerSprite_1","order":5,"path":"sprites/s_GameManagerSprite_1/s_GameManagerSprite_1.yy",},
     {"name":"s_MenuFreddy","order":2,"path":"sprites/s_MenuFreddy/s_MenuFreddy.yy",},
     {"name":"s_Static","order":1,"path":"sprites/s_Static/s_Static.yy",},
     {"name":"s_TEMPButton","order":3,"path":"sprites/s_TEMPButton/s_TEMPButton.yy",},
