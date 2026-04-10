@@ -1,6 +1,6 @@
 // Only draw the HUD if the player is alive
-if (!is_dead) {
-    draw_set_font(fnt_Consolas_24);
+if (!global.is_dead) {
+    draw_set_font(fnt_LCDSolid32);
     draw_set_color(c_white);
     
     // ==========================================

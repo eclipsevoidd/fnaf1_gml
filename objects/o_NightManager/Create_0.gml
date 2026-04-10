@@ -24,7 +24,7 @@ global.opponent_power = 100;
 global.opponent_dead = false;
 global.opponent_timeAM = 12;
 
-is_dead = false;
+global.is_dead = false;
 
 global.left_door_closed = false;
 global.right_door_closed = false;

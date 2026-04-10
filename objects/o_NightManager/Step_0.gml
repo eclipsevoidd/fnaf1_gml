@@ -1,6 +1,6 @@
-if (!is_dead) {
+if (!global.is_dead) {
 	
-	var calculated_usage = 1;
+	var calculated_usage = 1; 
     
     // Add 1 point of usage for every active system
     if (global.left_door_closed) calculated_usage += 1;
@@ -9,8 +9,8 @@ if (!is_dead) {
     if (global.right_light_on) calculated_usage += 1;
     if (global.camera_up) calculated_usage += 1;
     
+    // Lock it into the engine variable
     current_usage = calculated_usage;
-	
 	// power stuff
     if (global.power_raw > 0) {
         var passive_drain = 1 / 3; 
@@ -67,7 +67,7 @@ if (!is_dead) {
                 command: "match_update",
                 power: global.power_display,
                 timeAM: global.currentHour,
-                dead: is_dead
+                dead: global.is_dead
             };
             
             var json_string = json_stringify(payload);
