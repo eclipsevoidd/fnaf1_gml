@@ -1,17 +1,20 @@
-if (image_speed > 0 && image_index >= image_number - 1) {
-    image_speed = 0;
-    image_index = image_number - 1;
-    
-    o_DoorTriggerL.closed = 2;
-    o_DoorTriggerL.animating = false;
-    o_DoorTriggerL.audio_played = false; 
-}
+// animation speed (FPS)
+var anim_speed = 30; 
 
-if (image_speed < 0 && image_index <= 0) {
-    image_speed = 0;
-    image_index = 0;
+if (global.left_door_closed) {
+	// closing animation
+    image_index += anim_speed * (delta_time / 1000000);
     
-    o_DoorTriggerL.closed = 0;
-    o_DoorTriggerL.animating = false;
-	o_DoorTriggerL.audio_played = false;
+    // stop at last frame
+    if (image_index > image_number - 1) {
+        image_index = image_number - 1;
+    }
+} else {
+    // opening animation
+    image_index -= anim_speed * (delta_time / 1000000);
+    
+    // stop at first frmae
+    if (image_index < 0) {
+        image_index = 0;
+    }
 }
