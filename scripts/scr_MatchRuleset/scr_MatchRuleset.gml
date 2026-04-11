@@ -1,6 +1,6 @@
 function MatchConfig() constructor {
     // default rules
-    matchLength = 15; // minutes
+    matchLength = 10; // minutes
     suddenDeath = true;
     winCondition = "highest_power"; 
     

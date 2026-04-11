@@ -5,7 +5,7 @@ visible_state = GAME_STATE.MENU;
 
 // function on click
 on_click = function() {
-    show_debug_message("I was clicked!");
+    show_debug_message("Clicked button");
 }
 
 // visual feedback

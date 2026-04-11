@@ -2,15 +2,15 @@ if (!global.is_dead) {
 	
 	var calculated_usage = 1; 
     
-    // Add 1 point of usage for every active system
+	// constant usage calculation
     if (global.left_door_closed) calculated_usage += 1;
     if (global.right_door_closed) calculated_usage += 1;
     if (global.left_light_on) calculated_usage += 1;
     if (global.right_light_on) calculated_usage += 1;
     if (global.camera_up) calculated_usage += 1;
     
-    // Lock it into the engine variable
     current_usage = calculated_usage;
+	
 	// power stuff
     if (global.power_raw > 0) {
         var passive_drain = 1 / 3; 

@@ -20,6 +20,7 @@
     {"name":"inst_4684605C","path":"rooms/rm_Office/rm_Office.yy",},
     {"name":"inst_512B8E04","path":"rooms/rm_Office/rm_Office.yy",},
     {"name":"inst_13B173A9","path":"rooms/rm_Office/rm_Office.yy",},
+    {"name":"inst_17325D9F","path":"rooms/rm_Office/rm_Office.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,6 +40,7 @@
         {"$GMRInstance":"v4","%Name":"inst_13B173A9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13B173A9","objectId":{"name":"o_ButtonHitbox","path":"objects/o_ButtonHitbox/o_ButtonHitbox.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_ButtonHitbox","path":"objects/o_ButtonHitbox/o_ButtonHitbox.yy",},"propertyId":{"name":"action_type","path":"objects/o_ButtonHitbox/o_ButtonHitbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"right_light\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1549.0,"y":460.0,},
+        {"$GMRInstance":"v4","%Name":"inst_17325D9F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17325D9F","objectId":{"name":"o_Monitor","path":"objects/o_Monitor/o_Monitor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"UI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ShaderController","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_2447B3A9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2447B3A9","objectId":{"name":"o_ShaderController","path":"objects/o_ShaderController/o_ShaderController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-32.0,},

@@ -4,7 +4,8 @@ global.power_raw = 999.0;
 global.power_display = 99;
 current_usage = 1;
 
-night_length_seconds = 540; 
+night_length_seconds = 540;
+
 night_timer = new DeltaTimer(night_length_seconds);
 
 match_timeout_timer = new DeltaTimer(global.match_settings.matchLength * 60);
@@ -31,3 +32,7 @@ global.right_door_closed = false;
 global.left_light_on = false;
 global.right_light_on = false;
 global.camera_up = false;
+
+// ASSET PRELOADING
+sprite_prefetch(s_DoorLeft);
+sprite_prefetch(s_DoorRight);

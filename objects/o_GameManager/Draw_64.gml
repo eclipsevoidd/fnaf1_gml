@@ -1,3 +1,10 @@
+draw_set_font(fnt_Consolas_24);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_colour(c_lime);
+draw_text(string_length(fps), -5, fps);
+draw_set_colour(c_white);
+
 var menu_Title = "FNaF: Ranked"
 var titleX = 125;
 var titleY = 200;

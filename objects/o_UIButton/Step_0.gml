@@ -27,6 +27,6 @@ was_hovered = is_hovered;
 
 // --- THE CLICK LOGIC ---
 if (is_hovered && mouse_check_button_pressed(mb_left)) {
-    audio_play_sound(snd_click, 0, 0, 0.35); 
+    audio_play_sound(snd_click, 0, 0, 0.35);
     on_click();
 }

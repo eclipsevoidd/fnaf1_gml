@@ -1,0 +1,1 @@
+anim_speed = 1;

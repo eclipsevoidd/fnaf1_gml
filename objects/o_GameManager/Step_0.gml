@@ -81,4 +81,4 @@ switch (current_state) {
         break;
 }
 
-staticFrame += 1;
+staticFrame += 60 * (delta_time / 1000000);

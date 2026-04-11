@@ -1,6 +1,3 @@
-// animation speed (FPS)
-var anim_speed = 30; 
-
 if (global.left_door_closed) {
 	// closing animation
     image_index += anim_speed * (delta_time / 1000000);
