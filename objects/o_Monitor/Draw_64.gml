@@ -22,10 +22,9 @@ var hover_y1 = screen_h - hover_h;
 var hover_x2 = (screen_w / 2) + (hover_w / 2);
 var hover_y2 = screen_h;
 
-// Draw the red box
-draw_set_alpha(0.5);
-draw_set_color(c_red);
-draw_rectangle(hover_x1, hover_y1, hover_x2, hover_y2, false);
+// draw_set_alpha(0.5);
+// draw_set_color(c_red);
+// draw_rectangle(hover_x1, hover_y1, hover_x2, hover_y2, false);
 
 // 3. THE VISUAL CAMERA BUTTON
 draw_set_alpha(1.0);

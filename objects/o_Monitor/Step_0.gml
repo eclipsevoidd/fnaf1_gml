@@ -50,6 +50,15 @@ if (animating) {
         
         global.camera_up = true; // Tell the game the monitor is officially up!
 
+        // ==========================================
+        // SPAWN THE BLIP FLASH ON OPEN
+        // ==========================================
+		if (!instance_exists(o_BlipFlash)) {
+			var camBlip = instance_create_depth(0, 0, -1000, o_BlipFlash);
+			camBlip.image_index = 0; // Ensure it starts on frame 0
+		}
+        // ==========================================
+
         audio_sound_gain(snd_Fan, 0.25, 0);
         audio_play_sound(snd_MiniDV_Tape_Eject_1, 0, true, 0.25);
     }

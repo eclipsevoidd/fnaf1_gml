@@ -1,0 +1,1 @@
+audio_play_sound(snd_blip, 0, false, .25);

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"ControllerSprites",
-    "path":"folders/Sprites/ControllerSprites.yy",
+    "name":"ManagerSprites",
+    "path":"folders/Sprites/ManagerSprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
