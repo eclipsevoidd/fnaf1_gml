@@ -4,7 +4,14 @@ if (global.camera_up && !global.is_dead) {
 
     // 2. UNIVERSAL TIMERS (Feed and Static)
     feed_frame += feed_fps * dt;
-    if (feed_frame >= 10000) feed_frame = 0; 
+    if (feed_frame >= 10000) feed_frame = 0;
+
+	// Loop through every camera and count down their individual blackouts
+	for (var i = 0; i < array_length(global.camera_blackouts); i++) {
+	    if (global.camera_blackouts[i] > 0) {
+	        global.camera_blackouts[i] -= dt;
+	    }
+	}
     
     static_frame += static_fps * dt;
     // Loop static based on how many frames s_CamStatic actually has

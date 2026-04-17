@@ -21,17 +21,22 @@ with (o_DoorRight) draw_self();
 with (o_DoorButtonL) draw_self();
 with (o_DoorButtonR) draw_self();
 
-// --- THE CAMERA FEED INJECTION ---
+// visual camera
 with (o_CameraFeed) {
     if (global.camera_up && !global.is_dead) {
         var current_sprite = global.camera_feeds[global.current_cam];
         
-        // REMOVED 'other.' because _cx and _cy are local 'var' variables!
-        // GameMaker can read them directly through the with() block.
-        draw_sprite(current_sprite, o_CameraManager.feed_frame, _cx - cam_pan_offset, _cy);
+        // FIX: Check the array to see if THIS SPECIFIC camera is currently blacked out!
+        if (global.camera_blackouts[global.current_cam] > 0) {
+            draw_set_color(c_black);
+            draw_rectangle(_cx - 100, _cy - 100, _cx + _w + 100, _cy + _h + 100, false); 
+            draw_set_color(c_white);
+        } else {
+            // If this camera is safe, draw it normally
+            draw_sprite(current_sprite, o_CameraManager.feed_frame, _cx - cam_pan_offset, _cy);
+        }
     }
 }
-// ---------------------------------
 
 matrix_set(matrix_world, matrix_build_identity());
 surface_reset_target();

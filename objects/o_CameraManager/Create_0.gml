@@ -7,7 +7,9 @@ feed_fps = 20;
 
 // 4. ANIMATED STATIC TIMER (Just like the menu!)
 static_frame = 0;
-static_fps = 60; // Runs at 30 FPS regardless of lag
+static_fps = 90; // Runs at 60 FPS regardless of lag
+
+blackout_timer = 0;
 
 // 5. THE CAMERA DATA 
 cameras = [
